@@ -1,0 +1,29 @@
+{
+  "name": "clean-code-clean-architecture-class-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc:init": "tsc --init",
+    "build": "tsc",
+    "test": "tsc && jest dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oamts/Clean-Code-Clean-Architecture-Class-2.git"
+  },
+  "author": "oamts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oamts/Clean-Code-Clean-Architecture-Class-2/issues"
+  },
+  "homepage": "https://github.com/oamts/Clean-Code-Clean-Architecture-Class-2#readme",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6"
+  }
+}
